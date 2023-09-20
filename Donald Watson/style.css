@@ -1,12 +1,16 @@
 *,
 *::before,
 *::after {
-  margin: 0;
+  margin: 0.5em;
   padding: 0;
   box-sizing: border-box;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
 }
 
+nav {
+  background-color: lightgrey;
+  width: 100%;
+}
 nav a {
   text-decoration: none;
   padding: 10px 25px;
@@ -35,7 +39,9 @@ nav a:active {
   background-color: coral;
   color: white;
 }
-
+nav img {
+  width: 3em;
+}
 @media screen and (max-width: 580px) {
   nav img {
     vertical-align: auto;
@@ -47,4 +53,43 @@ nav a:active {
     vertical-align: middle;
     margin-right: 50px;
   }
+}
+
+body {
+  width: 80%;
+  background-color: rgb(238, 215, 158);
+}
+
+.container {
+  padding: 3em 0;
+  color: black;
+  background-color: lightgoldenrodyellow;
+}
+
+.newspaper {
+  text-align: left;
+  text-decoration: none;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  text-indent: initial;
+  border-spacing: 2px;
+  border-color: rgb(45, 45, 45);
+}
+
+.infobox {
+  border: 1px solid rgb(45, 45, 45);
+  border-spacing: 3px;
+  background-color: #eeeeee;
+  color: black;
+  margin: 0.5em 0 0.5em 1em;
+  margin-top: 4.5em;
+  padding: 0.2em;
+  float: right;
+  clear: right;
+  font-size: 88%;
+  line-height: 1.5em;
+  width: 22em;
 }/*# sourceMappingURL=style.css.map */
