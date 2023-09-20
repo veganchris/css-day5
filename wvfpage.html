@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=#, initial-scale=1.0">
+    <title>World Vegan Family Test-Page</title>
+    <style>
+        nav a {
+            display: inline-block;
+            width: 100px;
+            text-decoration: none;
+            padding: 10px 25px;
+            background-color: lightgrey;
+            color: black;
+            font-family: sans-serif;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: darkgrey;
+            color: white;
+        }
+
+        nav a:active {
+            background-color: coral;
+            color: white;
+        }
+
+        nav img {
+            vertical-align: middle;
+            margin-right: 50px;
+        }
+
+        div[class=hero] {
+            background-color: #eeeeee;
+            text-align: center;
+            height: auto;
+            padding: 50px 0px;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        body {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15px;
+            width: 80%;
+        }
+
+        input {
+            display: inline-block;
+            margin-bottom: 10px;
+            width: 230px;
+        }
+
+        input[type=submit]:hover {
+            background-color: lightgray;
+            color: black;
+            box-shadow: 5px 5px 5px 1px darkgrey;
+        }
+
+        input[type=submit] {
+            color: white;
+            background-color: darkgrey;
+            padding: 5px 30px;
+            width: 30%;
+        }
+
+        form {
+            color: darkgrey;
+            background-color: 888888;
+            width: 500px;
+            padding: 2%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            margin-top: 50px;
+
+        }
+        form h2 {
+            color: black
+        }
+
+        footer {
+            height: 10vh;
+            padding-top: 50px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navigation">
+        <nav>
+            <img src="logo-wvf.png" alt="Logo" width="100">
+            <a href="wvfpage.html">home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Products</a>
+            <a href="#">Links</a>
+
+        </nav>
+    </div>
+    <div class="body">
+        <div class="hero">
+            <h1>Dies ist die Seite von:</h1>
+            <h2>World Vegan Family</h2>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat placeat aliquid quisquam cum aut,
+                maiores
+                enim fuga nesciunt earum provident nemo corporis, vel eligendi sapiente saepe deserunt in est sunt!
+                Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Incidunt, veritatis? Officiis voluptatum ullam
+                numquam
+                ipsa libero illum eius harum autem, temporibus error iusto deserunt inventore vel perspiciatis tenetur
+                repellendus facilis?Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora numquam magnam
+                doloribus quasi iste quam minus repellendus itaque sequi libero! Cumque at, soluta ipsum alias aperiam
+                laboriosam eum voluptatum sint.</p>
+        </div>
+        <form name="Newsletter" action="#">
+            <h2>Anmeldung zum Newsletter</h2>
+            <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="Enter Name">
+            <br>
+            <label for="email">Email:</label>
+            <input type="text" name="email" placeholder="Enter Email">
+            <br>
+            <input type="submit" name="send">
+        </form>
+        <footer>
+            <p>Copyright by Christian Runda &copy; September 2023</p>
+        </footer>
+    </div>
+</body>
+
+</html>
