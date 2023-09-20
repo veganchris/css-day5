@@ -1,46 +1,7 @@
 @use "variables"as *;
 @use "start"as *;
+@use "nav"as *;
 
-nav a {
-    @media screen and (max-width: 580px) {
-        display: block;
-        width: 7em;
-    }
-
-    @media screen and (min-width: 580px) {
-        display: inline-block;
-        width: 10em;
-    }
-
-    text-decoration: none;
-    padding: 10px 25px;
-    background-color: $bgc-link;
-    color: black;
-    font-family: sans-serif;
-    text-align: center;
-
-    &:hover {
-        background-color: $bgc-hover;
-        color: white;
-    }
-
-    &:active {
-        background-color: $bgc-active;
-        color: white;
-    }
-}
-
-nav img {
-    @media screen and (max-width: 580px) {
-        vertical-align: auto;
-        margin-bottom: 10px;
-    }
-
-    @media screen and (min-width: 580px) {
-        vertical-align: middle;
-        margin-right: 50px;
-    }
-}
 
 div[class=hero] {
     background-color: $bgc-hero;

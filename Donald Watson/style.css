@@ -5,4 +5,46 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 10px 25px;
+  background-color: lightgrey;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+}
+@media screen and (max-width: 580px) {
+  nav a {
+    display: block;
+    width: 7em;
+  }
+}
+@media screen and (min-width: 580px) {
+  nav a {
+    display: inline-block;
+    width: 10em;
+  }
+}
+nav a:hover {
+  background-color: darkgrey;
+  color: white;
+}
+nav a:active {
+  background-color: coral;
+  color: white;
+}
+
+@media screen and (max-width: 580px) {
+  nav img {
+    vertical-align: auto;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 580px) {
+  nav img {
+    vertical-align: middle;
+    margin-right: 50px;
+  }
 }/*# sourceMappingURL=style.css.map */

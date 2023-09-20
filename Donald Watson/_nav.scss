@@ -1,4 +1,4 @@
-@use "variables" as *;
+@use "./variables" as *;
 
 nav a {
     @media screen and (max-width: 580px) {
